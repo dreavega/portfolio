@@ -8,7 +8,7 @@
  * Controller of the dreaPortfolioApp
  */
 angular.module('dreaPortfolioApp')
-  .controller('FunCtrl', function () {
-
+  .controller('FunCtrl', function ($scope, ProjectService) {
+    $scope.projects = ProjectService.funProjects
 
   });

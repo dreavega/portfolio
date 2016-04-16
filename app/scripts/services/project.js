@@ -12,7 +12,11 @@ angular.module('dreaPortfolioApp')
 
     return {
 
-      projects: [
+      funProjects: [
+
+      ],
+
+      normalProjects: [
         {
           title: "Virtual Reality",
           backgroundImage: "",

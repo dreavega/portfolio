@@ -9,5 +9,5 @@
  */
 angular.module('dreaPortfolioApp')
   .controller('MainCtrl', function ($scope, ProjectService) {
-    $scope.projects = ProjectService.projects;
+    $scope.projects = ProjectService.normalProjects;
   });

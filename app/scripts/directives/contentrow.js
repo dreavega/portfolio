@@ -13,7 +13,7 @@ angular.module('dreaPortfolioApp')
       restrict: 'E',
       replace: false,
       scope: {
-        project: "="
+        project: '='
       },
       controller: function($scope) {
         $scope.goToRoute = function(route) {

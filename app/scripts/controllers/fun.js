@@ -9,6 +9,7 @@
  */
 angular.module('dreaPortfolioApp')
   .controller('FunCtrl', function ($scope, ProjectService) {
-    $scope.projects = ProjectService.funProjects
+    window.service = ProjectService;
+    $scope.projects = ProjectService.funProjects;
 
   });

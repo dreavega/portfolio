@@ -34,6 +34,9 @@ angular
         controller: 'FunCtrl',
         controllerAs: 'vm'
       })
+      .when('/resume', {
+        templateUrl: 'views/resume.html',
+      })
       .when('/project1', {
         templateUrl: 'views/project1.html',
       })
@@ -45,6 +48,26 @@ angular
       })
       .when('/project4', {
         templateUrl: 'views/project4.html',
+      })
+      .when('/project5', {
+        templateUrl: 'views/fun.html',
+        controller: 'FunCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/fun1', {
+        templateUrl: 'views/fun1.html',
+      })
+      .when('/fun2', {
+        templateUrl: 'views/fun2.html',
+      })
+      .when('/fun3', {
+        templateUrl: 'views/fun3.html',
+      })
+      .when('/fun4', {
+        templateUrl: 'views/fun4.html',
+      })
+      .when('/fun5', {
+        templateUrl: 'views/fun5.html',
       })
       .otherwise({
         redirectTo: '/'
